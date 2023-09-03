@@ -1,0 +1,39 @@
+.about__Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 140px;
+    padding-top: 60px;
+}
+
+.left__Photo {
+    width: 25%;
+}
+
+.right__Information {
+    width: 40%;
+}
+
+.myImg {
+    border-radius: 50%;
+}
+
+@media (max-width: 1199px) {
+    .about__Container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .left__Photo,
+    .right__Information {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        width: 50%;
+    }
+
+    .myImg {
+       width: 230px;
+    }
+}

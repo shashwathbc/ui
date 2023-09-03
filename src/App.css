@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.container{
+  background-color: #e2e8f0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.container__Download{
+   background-color: #e2e8f0;
+  width: 100%;
+  height: 100vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.left__Navbar , .right__Navbar{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navLinks{
+  font-size: large;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navLinks:hover{
+  cursor: pointer;
+  color: darkgray;
+}
+
+.projects__Container{
+  width: 100%;
+  height: 100%;
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.grid__Projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+
+.headings{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.heads{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+.proj{
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.btn{
+  padding: 15px;
+  background-color: black;
   color: white;
+  border-radius: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 1199px) {
+  .grid__Projects{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .projects__Container{
+    margin: 0;
+  }
+.container__Download{
+      height: 100vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
