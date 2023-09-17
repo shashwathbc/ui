@@ -7,10 +7,6 @@ import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 function App() {
   return (
     <div className="container">
-       
-       {/* NAVBAR */}
-       {/* <nav className='navbar'> */}
-          {/* <div className="left__Navbar"> */}
             <BrowserRouter>
             <div className='navbar'>
             <div className="left__Navbar">
@@ -39,9 +35,6 @@ function App() {
                     <Route exact path="/resume" element={<Resume />} />
                 </Routes>
             </BrowserRouter>
-          {/* </div> */}
-       {/* </nav> */}
-      
     </div>
   );
 }
