@@ -23,6 +23,7 @@
         flex-direction: column;
         align-items: center;
         padding-left: 0;
+        margin-right: 30px;
     }
 
     .left__Photo,
@@ -30,7 +31,13 @@
         flex-direction: column;
         align-items: center;
         padding-left: 0;
-        width: 50%;
+        width: 79%;
+    }
+
+    .left__Photo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .myImg {

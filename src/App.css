@@ -64,7 +64,7 @@
 
 .headings{
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   font-size: larger;
   font-weight: bolder;
@@ -101,5 +101,10 @@
   }
 .container__Download{
       height: 100vh;
+}
+.left__Navbar , .right__Navbar{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 }

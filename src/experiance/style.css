@@ -7,23 +7,14 @@
     margin-top: 20px;
 }
 
-.heading {
-    margin: 0;
-    width: 80%;
-    margin-top: 20px;
-    margin-left: 265px;
-}
-
 .exp__Section{
     margin: 0;
     height: inherit;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    flex-direction: row;
     margin-bottom: 20px;
-    margin-left: 100px;
     background-color: #ffffff;
     box-shadow: 100px solid red;
     padding: 5px;
@@ -64,7 +55,7 @@
     .exp__Container {
         width: 100%;
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 10px; 
     }
     .exp__Section{
         display: flex;
@@ -72,11 +63,6 @@
     }
     .img__Section , .end__Section{
         display: none;
-    }
-    .heading {
-       display: flex;
-       align-items: center;
-       justify-content: start;
     }
 }
 
