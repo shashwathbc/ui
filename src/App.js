@@ -36,6 +36,7 @@ function App() {
           </div>
 
           </div>
+          
           <Routes>
                     <Route exact path="/" element={<HomePage />} />
                     <Route exact path="/projects" element={<Projects />} />
