@@ -24,10 +24,17 @@ function App() {
           </NavLink>
            </div>
           <div className="right__Navbar">
-          <img src="https://www.sudharsangs.in/linkedin.svg" className='img' />
-          <img src="https://www.sudharsangs.in/github.svg" className='img' />
-          <img src="https://www.sudharsangs.in/calendly.svg" className='img' />
+            <NavLink to="https://github.com/shashwathbc">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" className='img' />
+          </NavLink>
+          <NavLink to="https://www.linkedin.com/in/shashwath-bc-14726a168/">
+          <img src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473" className='img' />
+          </NavLink>
+          <NavLink to="https://github.com/shashwathbc">
+          <img src="https://wallpapers.com/images/hd/itachi-uchiha-crow-jutsu-naioii65xyazv1vl.jpg" className='img' />
+          </NavLink>
           </div>
+
           </div>
           <Routes>
                     <Route exact path="/" element={<HomePage />} />

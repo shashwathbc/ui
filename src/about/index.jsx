@@ -11,9 +11,10 @@ const About = () => {
 
      <div className="right__Information">
          <h1>Hi, I'm Shashwath</h1>
-         <h3>  Living in Bengaluru,India</h3>
-         <p>A passionate Frontend engineer with over two years of experience, I have developed user-driven features for data-intensive applications using React, Redux, Javascript, and Typescript. As a product builder and developer, I am excited about experimenting with Javascript and Web Development. On the side, I explore Svelte, Golang, and similar languages.
-        Currently I am working as a Web Engineer at Fubo TV, a live TV streaming platform based out of NYC.</p>
+         <h3>  Living in ಬೆಂಗಳೂರು(Bengaluru),India</h3>
+         <p>
+         A passionate Frontend engineer with over two years of experience, I have developed user-driven features for data-intensive applications using React, Redux, Javascript, and Typescript. As a product builder and developer, I am excited about experimenting with Javascript and Web Development. On the side, I am currently exploring Node.js and Mongo DB
+         </p>
      </div>
    </div>
   )

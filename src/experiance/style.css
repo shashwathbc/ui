@@ -19,21 +19,11 @@
     box-shadow: 100px solid red;
     padding: 5px;
     border-radius: 15px;
-}
-
-.first__Section{
-    width: 10%;
-    height: 20%;
+    width: 74%;
 }
 
 .mid__SubSection{
-    width: 60%;
-    height: 20%;
-}
-
-.end__Section{
-    width: 30%;
-    height: 20%;
+    width: 73%;
 }
 
 .img__Section{
@@ -66,3 +56,11 @@
     }
 }
 
+
+
+/* EXP SECTION UPDATED */
+
+
+.ul-w{
+ width: 100%;
+}
