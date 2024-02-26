@@ -50,12 +50,7 @@ const Experiance = () => {
 
           <div className="mid__SubSection">
             <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                width:'100%'
-              }}
+          className="exp-title"
             >
               <h3>
                 {item?.designation} | {item?.companyName} 

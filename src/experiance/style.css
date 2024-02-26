@@ -40,6 +40,13 @@
     margin-bottom: 10px;
 }
 
+.exp-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 @media (max-width: 1199px) {
     .exp__Container {
@@ -53,6 +60,14 @@
     }
     .img__Section , .end__Section{
         display: none;
+    }
+
+    .exp-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
